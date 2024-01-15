@@ -1,0 +1,116 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: linear-gradient( rgb(94, 146, 237), rgb(214, 85, 65), rgb(144, 164, 172));
+
+}
+.cont{
+    background-color: darkgray;
+    width: 300px;
+    height: 300px;
+    margin:50px auto 0;
+    padding:25px;
+    text-align: center;
+    background-color: rgb(179, 177, 177);
+    border-top: 5px solid lightcoral;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+}
+.cont label{
+    display: block;
+    text-align: left;
+    margin: 10px;
+    
+}
+.cont input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.pl{
+    text-align: center;
+    padding: 10px;
+    
+}
+button{
+    width: 100%;
+    color: white;
+    background-color: lightcoral;
+    border: none;
+    padding: 10px;
+    margin: 25px 15px 0 0;
+    border-radius: 7px;
+} */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(94, 146, 237), rgb(214, 85, 65), rgb(144, 164, 172));
+}
+
+.cont {
+    width: 90%;
+    max-width: 400px; /* Adjust maximum width as needed */
+    margin: 50px auto 0;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(179, 177, 177);
+    border-top: 5px solid lightcoral;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cont label {
+    display: block;
+    text-align: left;
+    margin: 10px;
+}
+
+.cont input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add a margin bottom for input spacing */
+    background-color: rgb(186, 162, 162);
+}
+
+.pl {
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    color: white;
+    background-color: lightcoral;
+    border: none;
+    padding: 10px;
+    margin: 15px 0 0;
+    border-radius: 7px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .cont {
+        width: 95%;
+    }
+}

@@ -1,0 +1,149 @@
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: linear-gradient( rgb(94, 146, 237), rgb(214, 85, 65), rgb(144, 164, 172));
+
+}
+
+.cont {
+    height: auto;
+    width: 400px;
+    padding: 25px;
+    margin: 12px auto 0;
+    background-color: rgb(179, 177, 177);
+    border-top: 5px solid lightcoral;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.cont h1 {
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.inp {
+    width: 90%;
+    position: relative;
+    margin: 20px auto ;
+    display: grid;
+    gap: 10px; /* Adjust the gap value as needed */
+/* }
+
+.inp label {
+    text-align: left;
+}
+
+.inp input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    color: white;
+    background-color: lightcoral;
+    border: none;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 10px;
+}
+#ro{
+    text-align: center;
+    margin-top: 8px;
+} */ 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(94, 146, 237), rgb(214, 85, 65), rgb(144, 164, 172));
+}
+
+.cont {
+    height: auto;
+    width: 80%; /* Adjust width as needed */
+    max-width: 400px; /* Set a maximum width for larger screens */
+    padding: 25px;
+    margin: 12px auto 0;
+    background-color: rgb(179, 177, 177);
+    border-top: 5px solid lightcoral;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.cont h1 {
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.inp {
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+    display:grid;
+    gap: 10px; /* Adjust the gap value as needed */
+}
+
+.inp label {
+    text-align: left;
+}
+
+.inp input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(186, 162, 162);
+}
+
+button {
+    color: white;
+    background-color: lightcoral;
+    border: none;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+#ro {
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .cont {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cont {
+        width: 95%;
+    }
+}
